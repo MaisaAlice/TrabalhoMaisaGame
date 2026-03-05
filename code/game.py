@@ -1,23 +1,9 @@
-import pygame
-
-from code.menu import Menu
-
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 class Game:
-
     def __init__(self):
-        pygame.init()
-        self.window = pygame.display.set_mode((800, 500))
+        self.window = None
 
-    def run(self):
-        while True:
-            menu = Menu(self.window)
-            menu.run()
-            pass
-
-            # Check for all events
-            # for event in pygame.event.get():
-            # for event in pygame.event.get():
-            #     if event.type == pygame.QUIT:
-            #         pygame.quit()  # Fecha a janela
-            #         quit()  # Encerra o programa
+    def run(self, ):
+        pass
